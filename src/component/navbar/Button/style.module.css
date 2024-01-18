@@ -1,0 +1,18 @@
+.button {
+  cursor: pointer;
+  outline: none;
+  border-radius: 100px;
+  padding: 1em 1.5em;
+  border: 1px solid;
+  background: var(--first);
+  color: white;
+  font-size: 1em;
+  font-weight: 600;
+  font-family: inherit;
+  text-transform: uppercase;
+  opacity: 1;
+}
+
+.button:hover {
+  background: var(--third);
+}
